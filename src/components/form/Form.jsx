@@ -51,7 +51,7 @@ export default function Form(props) {
                     onChange={handleChange}
                 />
                 <p className={styles.error}>{errors.password ? errors.password : null}</p>
-                <hr />
+                
 
                 <button type="submit">Submit</button>
 

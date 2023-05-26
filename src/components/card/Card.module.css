@@ -1,12 +1,12 @@
 .container {
     /* border: 0px solid grey; */
-    background-color: darkgray;
-    border-radius: 10px;
+    background-color: rgb(255, 254, 254);
+    border-radius: 3px;
     width: 140px;
     height: 280px;
     margin: 20px;
     padding: 10px;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 20px rgb(71, 161, 15);
     &:hover {
         box-shadow: 0 0 5px grey;
     }
@@ -16,6 +16,8 @@
     width: 130px;
     box-shadow: 0 5px 5px black;
     margin-top: 15px;
+
+
 }
 
 .buttonContainer {
@@ -37,18 +39,18 @@
 }
 
 .dataContainer {
-    text-align: center;
-    padding: 5px;
+    text-align:start;
+    padding: 10px;
 }
 
 .dataContainer h2 {
     margin: 2px;
     font-size: 15px;
-    color: darkslategray
+    color: black
 }
 
 .dataContainer h4 {
     margin: 2px;
     font-size: 10px;
-    color: darkslategray
+    color: black
 }
